@@ -1,0 +1,64 @@
+@import 'reset';
+@import "bower_components/susy/sass/susy";
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+
+.header{
+  @include span(12 last);
+  border: 1px solid steelblue;
+}
+.nav-link {
+  @include gallery(2 of 12);
+  // border: 1px solid black;
+  list-style: none;
+  height:2em;
+}
+.fa-bars {
+  display:none;
+  position: absolute;
+  top:0;
+  left:0;
+  padding: 1em;
+}
+
+
+// image carousel
+.banner-image-container {
+  @include span(12 last);
+  padding: 0em;
+}
+.banner-image{
+  // background-size: cover;
+  width: 100%;
+  padding: 1.5em;
+  min-height: 200px;
+}
+.slick-prev:before, .slick-next:before { 
+    color:black;
+    font-size: 30px;
+}
+.slick-prev{
+  left:0px;
+}
+.slick-next{
+  right: 10px;
+}
+.slick-dots{
+  bottom:-30px;
+}
+
+.main-container {
+  padding: 2em;
+}
+
+//three image flow chart
+.flow{
+ @include span(4);
+ text-align: center; 
+}
