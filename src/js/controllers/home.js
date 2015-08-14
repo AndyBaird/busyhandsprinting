@@ -13,6 +13,8 @@ router.route('', 'home', function (){
 
   $('.home-nav').addClass('active');
   $('.products-nav').removeClass('active');
+  $('.contact-nav').removeClass('active');
+  $('.company-nav').removeClass('active');
     menu();  
 
 

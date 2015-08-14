@@ -123,6 +123,7 @@ module.exports = function () {
   
   defaultPosition = indicatorPosition = activeElement.position().left + activeElement.width()/2 - 5;
   
+  //redefine default position of arrow to active selection
   $('li').click(function(){
     defaultPosition = indicatorPosition = activeElement.position().left + activeElement.width()/2 - 5;  
   });

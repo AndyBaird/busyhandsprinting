@@ -6,14 +6,14 @@ var show = require('../show');
 var views = require('views');
 var menu = require('../menu');
 
-router.route('products', function (){
-  show('products', '.main-content');
+router.route('company', function (){
+  show('company', '.main-content');
 //load the menu JS
-
-  $('.products-nav').addClass('active');
+ 
+  $('.company-nav').addClass('active');
   $('.home-nav').removeClass('active');
   $('.contact-nav').removeClass('active');
-  $('.company-nav').removeClass('active');
+  $('.products-nav').removeClass('active');
     menu();  
 
     
