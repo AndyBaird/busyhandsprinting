@@ -1,7 +1,11 @@
-// TODO: put initialization logic here
-var $ = require('jquery'); 
-var slick = require('../../bower_components/slick.js/slick/slick.js');
-var home = require('./home');
+'use strict';
+var jQuery = require("jquery");
+var $ = require("jquery");
+var bulk = require('bulk-require');
+var router = require('./router');
 
-console.log(home);
-home();
+// Require all of our controllers
+bulk(__dirname, ['controllers/**/*.js']);
+
+// Start the router
+router.init();

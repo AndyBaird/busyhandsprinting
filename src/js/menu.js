@@ -1,3 +1,5 @@
+var jQuery = require('jquery'); 
+
 module.exports = function () {
   (function($) {
   
@@ -120,6 +122,12 @@ module.exports = function () {
   }
   
   defaultPosition = indicatorPosition = activeElement.position().left + activeElement.width()/2 - 5;
+  
+  $('li').click(function(){
+    defaultPosition = indicatorPosition = activeElement.position().left + activeElement.width()/2 - 5;  
+  });
+  
+  
   console.log(activeElement);
   console.log(activeElement.position().left);
   console.log(activeElement.width());
