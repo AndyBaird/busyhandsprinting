@@ -1,12 +1,16 @@
 var $ = require('jquery'); 
 var slick = require('../../bower_components/slick.js/slick/slick.js');
+var menu = require('./menu');
+
 module.exports = function () {
 
 // mobile conditions 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  menu();
   $('.fa-bars').fadeIn();
   $('.nav-container').css('display', 'none');
 }
+menu();
 
 // carousel
 $(document).ready(function(){

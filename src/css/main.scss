@@ -1,5 +1,6 @@
 @import 'reset';
 @import "bower_components/susy/sass/susy";
+@import 'styles-menu';
 
 $susy: (
   columns: 12,
@@ -9,16 +10,6 @@ $susy: (
   gutter-position: inside,
 );
 
-.header{
-  @include span(12 last);
-  border: 1px solid steelblue;
-}
-.nav-link {
-  @include gallery(2 of 12);
-  // border: 1px solid black;
-  list-style: none;
-  height:2em;
-}
 .fa-bars {
   display:none;
   position: absolute;
