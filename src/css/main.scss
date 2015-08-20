@@ -1,6 +1,8 @@
 @import 'reset';
+@import 'goldenrule';
 @import "bower_components/susy/sass/susy";
 @import 'styles-menu';
+@import 'home';
 
 $susy: (
   columns: 12,
@@ -17,7 +19,6 @@ $susy: (
   left:0;
   padding: 1em;
 }
-
 
 // image carousel
 .banner-image-container {
@@ -43,13 +44,7 @@ $susy: (
 .slick-dots{
   bottom:-30px;
 }
-
 .main-container {
   padding: 2em;
 }
 
-//three image flow chart
-.flow{
- @include span(4);
- text-align: center; 
-}

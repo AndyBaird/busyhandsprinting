@@ -1,0 +1,29 @@
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+.home-description{
+  padding-bottom: 2em;
+}
+//three image flow chart
+.flow-container{
+  padding-bottom: 4em;
+}
+.flow{
+ @include span(4);
+ text-align: left; 
+}
+.hero-container{
+  height: 400px;
+  background-image: linear-gradient(rgba($color: black, $alpha: 0.5),rgba($color: black, $alpha: 0.5) ),
+  url('../img/screen-print.jpg');
+  background-size: cover;
+}
+.hero-text{
+  color:white;
+  padding:1em;
+  margin: 0em;
+}
