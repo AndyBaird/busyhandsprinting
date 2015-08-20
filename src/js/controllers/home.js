@@ -12,10 +12,12 @@ router.route('', 'home', function (){
 //load the menu JS
 
   $('.home-nav').addClass('active');
-  $('.products-nav').removeClass('active');
-  $('.contact-nav').removeClass('active');
+  $('.apparel-nav').removeClass('active');
+  $('.sublimation-nav').removeClass('active');
+  $('.sticker-nav').removeClass('active');
+  $('.plaques-nav').removeClass('active');
   $('.company-nav').removeClass('active');
-    menu();  
+  menu();  
 
 
 // mobile conditions 
@@ -25,44 +27,6 @@ router.route('', 'home', function (){
     $('.nav-container').css('display', 'none');
   }
 
-// carousel
-  $(document).ready(function(){
-    $('.banner-image-container').slick({
-      arrows: true,
-      dots: true,
-      infinite: false,
-      speed: 300,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 650,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-     });
-  });
+
 
 });
