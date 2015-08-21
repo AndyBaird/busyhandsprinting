@@ -1,17 +1,16 @@
 @import 'reset';
 @import 'goldenrule';
-@import "bower_components/susy/sass/susy";
+@import "bower_components/pure/pure-min";
+@import "bower_components/pure/grids-responsive-min";
+@import "bower_components/pure/buttons-min";
 @import 'styles-menu';
 @import 'home';
 
-$susy: (
-  columns: 12,
-  gutters: 1/4,
-  math: fluid,
-  output: float,
-  gutter-position: inside,
-);
-
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 .fa-bars {
   display:none;
   position: absolute;
@@ -19,10 +18,8 @@ $susy: (
   left:0;
   padding: 1em;
 }
-
 // image carousel
 .banner-image-container {
-  @include span(12 last);
   padding: 0em;
 }
 .banner-image{

@@ -1,29 +1,37 @@
-$susy: (
-  columns: 12,
-  gutters: 1/4,
-  math: fluid,
-  output: float,
-  gutter-position: inside,
-);
 .home-description{
   padding-bottom: 2em;
 }
 //three image flow chart
 .flow-container{
   padding-bottom: 4em;
+  color: black;
 }
 .flow{
- @include span(4);
- text-align: left; 
+ padding:2em; 
+}
+.flow i{
+  text-align: center;
+  font-size: 3em;
+  width: 100%;
 }
 .hero-container{
   height: 400px;
-  background-image: linear-gradient(rgba($color: black, $alpha: 0.5),rgba($color: black, $alpha: 0.5) ),
+  background-image: linear-gradient(rgba($color: black, $alpha: 0.6),rgba($color: black, $alpha: 0.6) ),
   url('../img/screen-print.jpg');
   background-size: cover;
 }
-.hero-text{
+.logo{
+  max-width: 100px;
+}
+.hero-title, .hero-description{
   color:white;
-  padding:1em;
+  padding:0.5em;
   margin: 0em;
+}
+.hero-title{
+  padding-bottom:0;
+  margin: 0;
+}
+.product-list{
+  padding-left:2em;
 }
