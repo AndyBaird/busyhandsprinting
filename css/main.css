@@ -1420,23 +1420,26 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   background-size: cover; }
 
 .logo {
-  max-width: 100px; }
+  max-width: 50px; }
 
 .hero-title, .hero-description {
+  text-align: center;
   color: white;
-  padding: 0.5em;
   margin: 0em; }
 
 .hero-title {
-  padding-bottom: 0;
-  margin: 0; }
+  padding-top: 1.8em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 4em;
+  font-family: 'Fredericka the Great', cursive; }
 
 .hero-description {
-  padding-bottom: 2em;
-  padding-left: 8em; }
+  font-size: 1.5em; }
 
 .flow-container {
-  padding-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   color: black; }
 
 .flow {
@@ -1447,11 +1450,25 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   font-size: 3em;
   width: 100%; }
 
+.products {
+  background-color: lightblue;
+  text-align: center;
+  padding-bottom: 4em;
+  padding-top: 1em; }
+
 .product-list {
-  padding-left: 2em; }
+  padding-left: 6em;
+  text-align: left;
+  list-style: none; }
 
 * {
   box-sizing: border-box; }
+
+.pure-g [class*="pure-u"] {
+  font-family: 'Century Gothic', sans-serif; }
+
+body, p, h1, h2, li {
+  font-family: 'Century Gothic', sans-serif; }
 
 .fa-bars {
   display: none;
