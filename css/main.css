@@ -1416,7 +1416,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 
 .hero-container {
   height: 400px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/screen-print.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/screen-print-opt.jpg");
   background-size: cover; }
 
 .logo {
