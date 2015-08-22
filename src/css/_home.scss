@@ -1,23 +1,7 @@
-.home-description{
-  padding-bottom: 2em;
-}
-//three image flow chart
-.flow-container{
-  padding-bottom: 4em;
-  color: black;
-}
-.flow{
- padding:2em; 
-}
-.flow i{
-  text-align: center;
-  font-size: 3em;
-  width: 100%;
-}
 .hero-container{
   height: 400px;
   background-image: linear-gradient(rgba($color: black, $alpha: 0.6),rgba($color: black, $alpha: 0.6) ),
-  url('../img/screen-print.jpg');
+  url('../img/screen-print-opt.jpg');
   background-size: cover;
 }
 .logo{
@@ -32,6 +16,24 @@
   padding-bottom:0;
   margin: 0;
 }
+.hero-description{
+  padding-bottom: 2em;
+  padding-left: 8em;
+}
+//three image flow chart
+.flow-container{
+  padding-bottom: 4em;
+  color: black;
+}
+.flow{
+ padding:2em; 
+}
+.flow i{
+  text-align: center;
+  font-size: 3em;
+  width: 100%;
+}
+
 .product-list{
   padding-left:2em;
 }
