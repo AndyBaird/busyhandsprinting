@@ -11,6 +11,12 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.pure-g [class*="pure-u"]{
+  font-family: 'Century Gothic', sans-serif;
+}
+body, p, h1, h2, li{
+  font-family: 'Century Gothic', sans-serif;
+}
 .fa-bars {
   display:none;
   position: absolute;
