@@ -1415,7 +1415,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   display: none; }
 
 .hero-container {
-  height: 400px;
+  height: 425px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/screen-print-opt.jpg");
   background-size: cover; }
 
@@ -1428,8 +1428,8 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   margin: 0em; }
 
 .hero-title {
-  padding-top: 1.8em;
-  padding-bottom: 0.2em;
+  padding-top: 1.7em;
+  padding-bottom: 0.5em;
   margin: 0;
   font-size: 4em;
   font-family: 'Fredericka the Great', cursive; }
@@ -1461,6 +1461,12 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   text-align: left;
   list-style: none; }
 
+.sublimation-container {
+  padding: 1em; }
+
+.sublimation-product {
+  padding: 1em; }
+
 * {
   box-sizing: border-box; }
 
@@ -1469,6 +1475,13 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 
 body, p, h1, h2, li {
   font-family: 'Century Gothic', sans-serif; }
+
+h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+p {
+  margin-bottom: 0.5em; }
 
 .fa-bars {
   display: none;
