@@ -1437,6 +1437,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .hero-description {
   font-size: 1.5em; }
 
+.hero-contact {
+  color: whitesmoke; }
+
 .flow-container {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -1460,6 +1463,16 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   padding-left: 6em;
   text-align: left;
   list-style: none; }
+
+.about-container {
+  background-color: lightgray;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  padding-left: 4em;
+  padding-right: 4em; }
+
+.about-title {
+  text-align: center; }
 
 .sublimation-container {
   padding: 1em; }
