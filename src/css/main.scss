@@ -5,6 +5,7 @@
 @import "bower_components/pure/buttons-min";
 @import 'styles-menu';
 @import 'home';
+@import 'sublimation';
 
 * {
     -webkit-box-sizing: border-box;
@@ -16,6 +17,13 @@
 }
 body, p, h1, h2, li{
   font-family: 'Century Gothic', sans-serif;
+}
+h3{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+p{
+  margin-bottom: 0.5em;
 }
 .fa-bars {
   display:none;

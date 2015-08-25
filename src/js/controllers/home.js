@@ -16,7 +16,7 @@ router.route('', 'home', function (){
   $('.sublimation-nav').removeClass('active');
   $('.sticker-nav').removeClass('active');
   $('.plaques-nav').removeClass('active');
-  $('.company-nav').removeClass('active');
+  $('.contact-nav').removeClass('active');
   menu();  
 
 
@@ -27,6 +27,9 @@ router.route('', 'home', function (){
     $('.nav-container').css('display', 'none');
   }
 
-
+  // $('.hero-contact').click(function(){
+  //   menu();
+  // })
+  
 
 });

@@ -15,7 +15,7 @@ router.route('stickers', function (){
   $('.sublimation-nav').removeClass('active');
   $('.sticker-nav').addClass('active');
   $('.plaques-nav').removeClass('active');
-  $('.company-nav').removeClass('active');
+  $('.contact-nav').removeClass('active');
   menu();  
 
 // carousel
