@@ -8,14 +8,14 @@ var menu = require('../menu');
 
 router.route('contact', function (){
   show('contact', '.main-content');
+
 //load the menu JS
-  $('.contact-nav').addClass('active');
   $('.home-nav').removeClass('active');
   $('.apparel-nav').removeClass('active');
   $('.sublimation-nav').removeClass('active');
   $('.sticker-nav').removeClass('active');
   $('.plaques-nav').removeClass('active');
-
+  $('.contact-nav').addClass('active');
   menu();  
 
     

@@ -27,6 +27,7 @@
 }
 //three image flow chart
 .flow-container{
+  background: url('../img/bg.png');
   padding-top: 2em;
   padding-bottom: 2em;
   color: black;
@@ -39,8 +40,9 @@
   font-size: 3em;
   width: 100%;
 }
-.products{
-  background-color: lightblue;
+.products-container{
+  border-top: solid 1px #B8C4CC;
+  border-bottom: solid 1px #B8C4CC;
   text-align: center;
   padding-bottom: 4em;
   padding-top:1em;
@@ -51,12 +53,12 @@
   list-style: none;
 }
 .about-container{
-  background-color: lightgray;
+  background: url('../img/bg.png');
   padding-top:2em;
   padding-bottom:4em;
   padding-left: 4em;
   padding-right:4em; 
 }
-.about-title{
+.subtitle{
   text-align: center;
 }

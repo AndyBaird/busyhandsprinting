@@ -1,6 +1,7 @@
 var jQuery = require('jquery'); 
 
 module.exports = function () {
+  
   (function($) {
   
     $.fn.menumaker = function(options) {
@@ -133,6 +134,16 @@ module.exports = function () {
   // console.log(activeElement.width());
   indicator.css("left", indicatorPosition);
   
+// BUG! only works on the first load for some reason..
+  $(".hero-contact, .flow-contact").hover(function(){
+    activeElement = $(".contact-nav");
+    indicatorPosition = activeElement.position().left + activeElement.width()/2 - 5;
+    indicator.css("left", indicatorPosition);
+  },
+    function() {
+    indicator.css("left", defaultPosition);
+  });
+  
   $("#cssmenu > ul > li").hover(function() {
     activeElement = $(this);
     indicatorPosition = activeElement.position().left + activeElement.width()/2 - 5;
@@ -142,6 +153,7 @@ module.exports = function () {
     indicator.css("left", defaultPosition);
   });
   
+
   });
   
   });
