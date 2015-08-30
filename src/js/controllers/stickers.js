@@ -6,8 +6,8 @@ var show = require('../show');
 var views = require('views');
 var menu = require('../menu');
 
-router.route('stickers', function (){
-  show('stickers', '.main-content');
+$(function(){
+  if($('body').is('.stickers')){
 //load the menu JS
 
   $('.home-nav').removeClass('active');
@@ -57,5 +57,5 @@ router.route('stickers', function (){
       ]
      });
   });
-  
+}
 });

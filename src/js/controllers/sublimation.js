@@ -6,8 +6,8 @@ var show = require('../show');
 var views = require('views');
 var menu = require('../menu');
 
-router.route('sublimation', function (){
-  show('sublimation', '.main-content');
+$(function(){
+  if($('body').is('.sublimation')){
 //load the menu JS
 
   $('.home-nav').removeClass('active');
@@ -57,5 +57,5 @@ router.route('sublimation', function (){
       ]
      });
   });
-  
+}
 });

@@ -6,8 +6,9 @@ var $ = require('jquery');
 var slick = require('../../../bower_components/slick.js/slick/slick.js');
 var menu = require('../menu');
 
-router.route('contact', function (){
-  show('contact', '.main-content');
+$(function(){
+  if($('body').is('.contact')){
+
 
 //load the menu JS
   $('.home-nav').removeClass('active');
@@ -18,5 +19,5 @@ router.route('contact', function (){
   $('.contact-nav').addClass('active');
   menu();  
 
-    
+  }
 });

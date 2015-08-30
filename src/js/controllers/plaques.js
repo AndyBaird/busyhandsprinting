@@ -6,8 +6,8 @@ var show = require('../show');
 var views = require('views');
 var menu = require('../menu');
 
-router.route('plaques', function (){
-  show('plaques', '.main-content');
+$(function(){
+  if($('body').is('.plaques')){
 //load the menu JS
 
   $('.home-nav').removeClass('active');
@@ -57,5 +57,5 @@ router.route('plaques', function (){
       ]
      });
   });
-  
+}
 });

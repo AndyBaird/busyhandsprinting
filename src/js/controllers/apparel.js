@@ -6,8 +6,10 @@ var show = require('../show');
 var views = require('views');
 var menu = require('../menu');
 
-router.route('apparel', function (){
-  show('apparel', '.main-content');
+$(function(){
+  if($('body').is('.apparel')){
+
+
 //load the menu JS
 
   $('.home-nav').removeClass('active');
@@ -58,4 +60,5 @@ router.route('apparel', function (){
      });
   });
   
+ }
 });
