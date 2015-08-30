@@ -1300,7 +1300,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   display: none; }
 
 #cssmenu {
-  width: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
   border-bottom: 1px solid #fd8a17;
   border-radius: 3px;
   font-family: 'Oswald', sans-serif;
@@ -1476,6 +1478,12 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .subtitle {
   text-align: center; }
 
+@media screen and (max-width: 600px) {
+  .hero-title {
+    padding-top: 0.5em; }
+  .hero-description {
+    font-size: 1.3em; } }
+
 .sublimation-container {
   padding: 1em; }
 
@@ -1491,12 +1499,18 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 body, p, h1, h2, li {
   font-family: 'Century Gothic', sans-serif; }
 
+body {
+  display: none; }
+
 h3 {
   margin-top: 0.5em;
   margin-bottom: 0.5em; }
 
 p {
   margin-bottom: 0.5em; }
+
+.main-content {
+  padding-top: 3em; }
 
 .fa-bars {
   display: none;
