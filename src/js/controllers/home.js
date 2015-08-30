@@ -18,13 +18,6 @@ $(function(){
   $('.contact-nav').removeClass('active');
   menu();  
 
-// mobile conditions 
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    menu();
-    $('.fa-bars').fadeIn();
-    $('.nav-container').css('display', 'none');
-  }
-
   }
 });
 
