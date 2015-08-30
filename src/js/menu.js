@@ -125,7 +125,7 @@ module.exports = function () {
   defaultPosition = indicatorPosition = activeElement.position().left + activeElement.width()/2 - 5;
   
   //redefine default position of arrow to active selection
-  $(window).on('hashchange', function(){
+  $(document).ready(function(){
     defaultPosition = indicatorPosition = activeElement.position().left + activeElement.width()/2 - 5;  
   });
   

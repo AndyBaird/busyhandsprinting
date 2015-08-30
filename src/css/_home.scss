@@ -62,3 +62,12 @@
 .subtitle{
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    .hero-title{
+      padding-top:0.5em;
+    }
+    .hero-description{
+      font-size: 1.3em;
+    }
+}
