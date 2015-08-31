@@ -1498,7 +1498,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     font-size: 3em; }
   .hero-description {
     font-size: 1.2em;
-    line-height: 1.5; } }
+    line-height: 1.5; }
+  .tel {
+    text-decoration: underline; } }
 
 .sublimation-container {
   padding: 1em; }
