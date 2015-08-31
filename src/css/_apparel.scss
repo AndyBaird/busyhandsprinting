@@ -1,0 +1,19 @@
+.apparel-selection-container{
+  text-align: center;
+}
+.apparel-selection-container > a{
+  color: black;
+  font-size: 1.5em;
+  margin:0.5em;
+  border-radius: 0.4em;
+}
+.apparel-selection{
+  padding: 2em;
+}
+#colorSwatchItem{
+  text-align: center;
+  margin:0 auto;
+}
+#colorSwatchImg > img {
+  max-width: 175px;
+}

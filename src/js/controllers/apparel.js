@@ -6,9 +6,20 @@ var show = require('../show');
 var views = require('views');
 var menu = require('../menu');
 
+  router.route("colors", function(){
+    show("colors", ".apparel-selection")
+  });
+  
+  router.route("styles", function(){
+    show("styles", ".apparel-selection")
+  });
+  
+  router.route("prices", function(){
+    show("apparel-prices", ".apparel-selection")
+  });
+
 $(function(){
   if($('body').is('.apparel')){
-
 
 //load the menu JS
 
