@@ -1419,7 +1419,8 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .hero-container {
   height: 425px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/screen-print-opt.jpg");
-  background-size: cover; }
+  background-size: cover;
+  visibility: hidden; }
 
 .logo {
   max-width: 50px; }
@@ -1490,6 +1491,25 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .sublimation-product {
   padding: 1em; }
 
+.apparel-selection-container {
+  text-align: center; }
+
+.apparel-selection-container > a {
+  color: black;
+  font-size: 1.5em;
+  margin: 0.5em;
+  border-radius: 0.4em; }
+
+.apparel-selection {
+  padding: 2em; }
+
+#colorSwatchItem {
+  text-align: center;
+  margin: 0 auto; }
+
+#colorSwatchImg > img {
+  max-width: 175px; }
+
 * {
   box-sizing: border-box; }
 
@@ -1499,8 +1519,8 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 body, p, h1, h2, li {
   font-family: 'Century Gothic', sans-serif; }
 
-body {
-  display: none; }
+.banner-image-container {
+  visibility: hidden; }
 
 h3 {
   margin-top: 0.5em;
