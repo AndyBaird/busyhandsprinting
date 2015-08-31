@@ -26,6 +26,25 @@
 .hero-contact{
   color: whitesmoke;
 }
+//telephone number
+.tel,.tel:visited { 
+  /*for small screens */ 
+  display:inline-block; 
+  color:#fff; 
+  text-decoration:none; 
+  } 
+
+  @media screen and (min-width: 28.5em) { 
+    /* for larger screens */ 
+    .tel,.tel:visited { 
+      background:none; 
+      cursor:default; 
+      } 
+    .tel,.tel:focus { 
+      color:#FFF; 
+    } 
+  }
+
 //three image flow chart
 .flow-container{
   background: url('../img/bg.png');
@@ -64,11 +83,15 @@
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .hero-title{
-      padding-top:0.5em;
+      font-size: 3em;
     }
     .hero-description{
-      font-size: 1.3em;
+      font-size: 1.2em;
+      line-height: 1.5;
+    }
+    .tel{
+      text-decoration: underline;
     }
 }
