@@ -18,9 +18,9 @@
 body, p, h1, h2, li{
   font-family: 'Century Gothic', sans-serif;
 }
-//force body to wait until all items load, JS then reveals content
-body{
-  display:none;
+//force banner-image-container to wait until all items load, JS then reveals content
+.banner-image-container{
+  visibility: hidden;
 }
 h3{
   margin-top: 0.5em;
