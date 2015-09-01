@@ -1,7 +1,7 @@
 .hero-container{
   height: 425px;
   background-image: linear-gradient(rgba($color: black, $alpha: 0.6),rgba($color: black, $alpha: 0.6) ),
-  url('../img/screen-print-opt.jpg');
+  url('../img/general/screen-print-opt.jpg');
   background-size: cover;
   visibility: hidden;
 }
@@ -52,7 +52,7 @@
 
 //three image flow chart
 .flow-container{
-  background: url('../img/bg.png');
+  background: url('../img/general/bg.png');
   padding-top: 2em;
   padding-bottom: 2em;
   color: black;
@@ -78,7 +78,7 @@
   list-style: none;
 }
 .about-container{
-  background: url('../img/bg.png');
+  background: url('../img/general/bg.png');
   padding-top:2em;
   padding-bottom:4em;
   padding-left: 4em;
