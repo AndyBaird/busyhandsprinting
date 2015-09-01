@@ -7,7 +7,7 @@ module.exports = function () {
     $.fn.menumaker = function(options) {
         
         var cssmenu = $(this), settings = $.extend({
-          title: "Menu",
+          title: "Busy Hands Printing",
           format: "dropdown",
           breakpoint: 768,
           sticky: false
@@ -102,7 +102,7 @@ module.exports = function () {
   
   $(window).load(function() {
     $("#cssmenu").menumaker({
-      title: "Menu",
+      title: "Busy Hands Printing",
       format: "dropdown"
     });
   

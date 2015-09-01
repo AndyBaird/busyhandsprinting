@@ -1,13 +1,14 @@
-.apparel-selection-container{
+.apparel-selector-container{
   text-align: center;
 }
 .apparel-selector{
   font-size: 1.5em;
-  margin:1em;
+  text-align: center;
   color: $primary-blue;
   border: 2px solid $primary-blue;
   padding:0.5em;
-  width: 210px;
+  width: 250px;
+  margin:0;
 }
 .apparel-selector:hover,
 .apparel-selector:active{
@@ -17,11 +18,14 @@
   background: $primary-blue;
 }
 .apparel-selection{
-  padding-left: 2em;
+  padding-left: 4em;
   padding-right: 4em;
 }
 .apparel-selection-description{
   text-align: center;
+}
+.apparel-list{
+  padding-left:4em;
 }
 #colorSwatchItem{
   text-align: center;
@@ -29,4 +33,19 @@
 }
 #colorSwatchImg > img {
   max-width: 175px;
+}
+.quote{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .apparel-selector{
+    font-size: 1.5em;
+    width:95%;
+    margin-top:0.1em;
+    margin-bottom:0.1em;
+    padding:0.2em;
+    margin:0;
+  }
+
 }
