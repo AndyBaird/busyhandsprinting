@@ -3023,7 +3023,7 @@ a:active {
 
 .hero-container {
   height: 425px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/screen-print-opt.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/general/screen-print-opt.jpg");
   background-size: cover;
   visibility: hidden; }
 
@@ -3069,7 +3069,7 @@ a:active {
     color: #FFF; } }
 
 .flow-container {
-  background: url("../img/bg.png");
+  background: url("../img/general/bg.png");
   padding-top: 2em;
   padding-bottom: 2em;
   color: black; }
@@ -3093,7 +3093,7 @@ a:active {
   list-style: none; }
 
 .about-container {
-  background: url("../img/bg.png");
+  background: url("../img/general/bg.png");
   padding-top: 2em;
   padding-bottom: 4em;
   padding-left: 4em;
@@ -3117,16 +3117,16 @@ a:active {
 .sublimation-product {
   padding: 1em; }
 
-.apparel-selection-container {
+.apparel-selector-container {
   text-align: center; }
 
 .apparel-selector {
   font-size: 1.5em;
-  margin: 1em;
+  text-align: center;
   color: #0e83cd;
   border: 2px solid #0e83cd;
   padding: 0.5em;
-  width: 210px; }
+  min-width: 250px; }
 
 .apparel-selector:hover,
 .apparel-selector:active {
@@ -3136,7 +3136,7 @@ a:active {
   background: #0e83cd; }
 
 .apparel-selection {
-  padding-left: 2em;
+  padding-left: 4em;
   padding-right: 4em; }
 
 .apparel-selection-description {
@@ -3148,6 +3148,14 @@ a:active {
 
 #colorSwatchImg > img {
   max-width: 175px; }
+
+@media screen and (max-width: 768px) {
+  .apparel-selector {
+    font-size: 1.5em;
+    width: 90%;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    padding: 0.2em; } }
 
 * {
   box-sizing: border-box; }
