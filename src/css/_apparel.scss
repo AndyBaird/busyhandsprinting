@@ -36,9 +36,14 @@
 }
 .quote{
   text-decoration: underline;
+  color: $primary-orange;
 }
 
 @media screen and (max-width: 768px) {
+  .apparel-selection{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
   .apparel-selector{
     font-size: 1.5em;
     width:95%;
@@ -46,6 +51,9 @@
     margin-bottom:0.1em;
     padding:0.2em;
     margin:0;
+  }
+  .apparel-selection-description{
+    text-align:left;
   }
 
 }
