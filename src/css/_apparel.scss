@@ -1,14 +1,27 @@
 .apparel-selection-container{
   text-align: center;
 }
-.apparel-selection-container > a{
-  color: black;
+.apparel-selector{
   font-size: 1.5em;
-  margin:0.5em;
-  border-radius: 0.4em;
+  margin:1em;
+  color: $primary-blue;
+  border: 2px solid $primary-blue;
+  padding:0.5em;
+  width: 210px;
+}
+.apparel-selector:hover,
+.apparel-selector:active{
+  color:#fff;
+}
+.apparel-selector:after{
+  background: $primary-blue;
 }
 .apparel-selection{
-  padding: 2em;
+  padding-left: 2em;
+  padding-right: 4em;
+}
+.apparel-selection-description{
+  text-align: center;
 }
 #colorSwatchItem{
   text-align: center;

@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald);
+@import 'colors-mixins';
 
 #cssmenu,
 #cssmenu ul,
@@ -32,8 +33,7 @@
   position: fixed;
   width: 100%;
   z-index:100;
-  border-bottom: 1px solid #fd8a17;
-  border-radius: 3px;
+  border-bottom: 1px solid $menu-hover;
   font-family: 'Oswald', sans-serif;
   line-height: 1;
   background: #f7f7f7;
@@ -61,7 +61,7 @@
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #fd8a17;
+  color: $menu;
   -webkit-transition: all .2s ease;
   -moz-transition: all .2s ease;
   -ms-transition: all .2s ease;
@@ -71,7 +71,7 @@
 #cssmenu > ul > li > a:hover,
 #cssmenu > ul > li:hover > a,
 #cssmenu > ul > li.active > a {
-  color: #444444;
+  color: $menu-hover;
 }
 #cssmenu #menu-indicator {
   position: absolute;
@@ -80,13 +80,16 @@
   height: 0;
   width: 0;
   border: 5px solid transparent;
-  border-bottom-color: #fd8a17;
+  border-bottom-color: $menu-hover;
   -webkit-transition: all 0.25s ease-out;
   -moz-transition: all 0.25s ease-out;
   -ms-transition: all 0.25s ease-out;
   -o-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
+
+//small screens
+
 #cssmenu.small-screen {
   width: 100%;
 }
@@ -115,11 +118,11 @@
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #fd8a17;
+  color: $menu;
   background: url('../img/bg.png');
 }
 #cssmenu.small-screen #menu-button.menu-opened {
-  color: #444444;
+  color: $menu-hover;
 }
 #cssmenu.small-screen #menu-button:after {
   content: "";
@@ -130,14 +133,14 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  border-top: 2px solid #fd8a17;
-  border-bottom: 2px solid #fd8a17;
+  border-top: 2px solid $menu;
+  border-bottom: 2px solid $menu;
   width: 18px;
   height: 3px;
 }
 #cssmenu.small-screen #menu-button.menu-opened:after {
-  border-top: 2px solid #444444;
-  border-bottom: 2px solid #444444;
+  border-top: 2px solid $menu-hover;
+  border-bottom: 2px solid $menu-hover;
 }
 #cssmenu.small-screen #menu-button:before {
   content: "";
@@ -147,10 +150,10 @@
   display: block;
   width: 18px;
   height: 2px;
-  background: #fd8a17;
+  background: $menu;
 }
 #cssmenu.small-screen #menu-button.menu-opened:before {
-  background: #444444;
+  background: $menu-hover;
 }
 #cssmenu.small-screen #menu-indicator {
   display: none;

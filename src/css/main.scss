@@ -1,12 +1,17 @@
 @import 'reset';
 @import 'goldenrule';
+@import 'colors-mixins';
 @import "bower_components/pure/pure-min";
 @import "bower_components/pure/grids-responsive-min";
 @import "bower_components/pure/buttons-min";
+@import "bower_components/creative-buttons/css/default";
+@import "bower_components/creative-buttons/css/component";
 @import 'styles-menu';
 @import 'home';
 @import 'sublimation';
 @import 'apparel';
+
+
 
 * {
     -webkit-box-sizing: border-box;
@@ -18,6 +23,9 @@
 }
 body, p, h1, h2, li{
   font-family: 'Century Gothic', sans-serif;
+}
+body{
+  color:black;
 }
 //force banner-image-container to wait until all items load, JS then reveals content
 .banner-image-container{
@@ -40,6 +48,7 @@ p{
   left:0;
   padding: 1em;
 }
+
 // image carousel
 .banner-image-container {
   padding: 0em;
@@ -51,8 +60,8 @@ p{
   min-height: 200px;
 }
 .slick-prev:before, .slick-next:before { 
-    color:black;
-    font-size: 30px;
+  color:black;
+  font-size: 30px;
 }
 .slick-prev{
   left:0px;

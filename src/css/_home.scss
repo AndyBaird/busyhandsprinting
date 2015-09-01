@@ -26,6 +26,9 @@
 .hero-contact{
   color: whitesmoke;
 }
+.hero-contact:hover{
+  color: $primary-orange;
+}
 //telephone number
 .tel,.tel:visited { 
   /*for small screens */ 
@@ -33,7 +36,9 @@
   color:#fff; 
   text-decoration:none; 
   } 
-
+.tel:hover{
+  color:white;
+}
   @media screen and (min-width: 28.5em) { 
     /* for larger screens */ 
     .tel,.tel:visited { 
@@ -61,8 +66,8 @@
   width: 100%;
 }
 .products-container{
-  border-top: solid 1px #B8C4CC;
-  border-bottom: solid 1px #B8C4CC;
+  // border-top: solid 1px #B8C4CC;
+  // border-bottom: solid 1px #B8C4CC;
   text-align: center;
   padding-bottom: 4em;
   padding-top:1em;
