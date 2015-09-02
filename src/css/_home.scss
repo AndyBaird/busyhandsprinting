@@ -1,5 +1,5 @@
 .hero-container{
-  height: 425px;
+  height: 350px;
   background-image: linear-gradient(rgba($color: black, $alpha: 0.6),rgba($color: black, $alpha: 0.6) ),
   url('../img/general/screen-print-opt.jpg');
   background-size: cover;
@@ -23,37 +23,31 @@
 .hero-description{
   font-size: 1.5em;
 }
+.contact-container{
+  text-align: center;
+}
 .hero-contact{
-  color: whitesmoke;
+  font-size: 1.5em;
+  text-align: center;
+  color: $primary-blue;
+  border: 2px solid $primary-blue;
+  padding:0.3em;
+  width: 90%;
+  margin:0;
+  margin-top:2em;
 }
-.hero-contact:hover{
-  color: $primary-orange;
+.hero-contact:hover,
+.hero-contact:active{
+  color:#fff;
 }
-//telephone number
-.tel,.tel:visited { 
-  /*for small screens */ 
-  display:inline-block; 
-  color:#fff; 
-  text-decoration:none; 
-  } 
-.tel:hover{
-  color:white;
+.hero-contact:after{
+  background: $primary-blue;
 }
-  @media screen and (min-width: 28.5em) { 
-    /* for larger screens */ 
-    .tel,.tel:visited { 
-      background:none; 
-      cursor:default; 
-      } 
-    .tel,.tel:focus { 
-      color:#FFF; 
-    } 
-  }
+
 
 //three image flow chart
 .flow-container{
-  background: url('../img/general/bg.png');
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 2em;
   color: black;
 }
@@ -66,8 +60,9 @@
   width: 100%;
 }
 .products-container{
-  // border-top: solid 1px #B8C4CC;
-  // border-bottom: solid 1px #B8C4CC;
+  border-top:dashed 1px $primary-blue;
+  border-bottom:dashed 1px $primary-blue;
+  // background: url('../img/general/bg.png');
   text-align: center;
   padding-bottom: 4em;
   padding-top:1em;
@@ -78,7 +73,6 @@
   list-style: none;
 }
 .about-container{
-  background: url('../img/general/bg.png');
   padding-top:2em;
   padding-bottom:4em;
   padding-left: 4em;
@@ -99,4 +93,21 @@
     .tel{
       text-decoration: underline;
     }
+}
+
+.apparel-selector{
+  font-size: 1.5em;
+  text-align: center;
+  color: $primary-blue;
+  border: 2px solid $primary-blue;
+  padding:0.5em;
+  width: 250px;
+  margin:0;
+}
+.apparel-selector:hover,
+.apparel-selector:active{
+  color:#fff;
+}
+.apparel-selector:after{
+  background: $primary-blue;
 }

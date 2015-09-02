@@ -1,0 +1,26 @@
+.contact-info{
+  color:black;
+  margin:0;
+  padding-top:4em;
+  text-align:center;
+}
+//telephone number
+.tel,.tel:visited { 
+  /*for small screens */ 
+  display:inline-block; 
+  color:black; 
+  text-decoration:none; 
+  } 
+.tel:hover{
+  color:$primary-orange;
+}
+#contact-container{
+  padding-top:0;
+}
+  @media screen and (min-width: 28.5em) { 
+    /* for larger screens */ 
+    .tel,.tel:visited { 
+      background:none; 
+      cursor:default; 
+      }  
+  }
