@@ -22,9 +22,9 @@
   padding-right: 4em;
   padding-bottom:2em;
 }
-// .apparel-selection-description{
-
-// }
+.apparel-selection-description{
+  margin-bottom:2em;
+}
 .apparel-list{
   padding-left:4em;
 }
@@ -38,6 +38,13 @@
 .quote{
   text-decoration: underline;
   color: $primary-orange;
+}
+#social-nav{
+ 
+  width:100%;
+  bottom:0;
+  left:0;
+  right:0;
 }
 
 @media screen and (max-width: 768px) {
