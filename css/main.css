@@ -3081,10 +3081,8 @@ a:active {
 
 .apparel-selection {
   padding-left: 4em;
-  padding-right: 4em; }
-
-.apparel-selection-description {
-  text-align: center; }
+  padding-right: 4em;
+  padding-bottom: 2em; }
 
 .apparel-list {
   padding-left: 4em; }
@@ -3160,6 +3158,9 @@ h3 {
 
 p {
   margin-bottom: 0.5em; }
+
+a {
+  color: #0e83cd; }
 
 .main-content {
   padding-top: 3em; }
