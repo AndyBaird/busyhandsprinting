@@ -2976,7 +2976,9 @@ a:active {
   font-size: 1.5em; }
 
 .contact-container {
-  text-align: center; }
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em; }
 
 .hero-contact {
   font-size: 1.5em;
@@ -2984,7 +2986,7 @@ a:active {
   color: #0e83cd;
   border: 2px solid #0e83cd;
   padding: 0.3em;
-  width: 90%;
+  width: 100%;
   margin: 0;
   margin-top: 2em; }
 
@@ -3008,9 +3010,12 @@ a:active {
   font-size: 3em;
   width: 100%; }
 
+.flow-contact {
+  color: #0e83cd; }
+
 .products-container {
-  border-top: dashed 1px #0e83cd;
-  border-bottom: dashed 1px #0e83cd;
+  border-width: 3px;
+  background-color: #F0F1F5;
   text-align: center;
   padding-bottom: 4em;
   padding-top: 1em; }
@@ -3029,30 +3034,25 @@ a:active {
 .subtitle {
   text-align: center; }
 
+.social-nav {
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #222E33;
+  padding: 1em; }
+
+#home-tel, .home-tel, .fa-facebook-square {
+  color: white; }
+
 @media screen and (max-width: 650px) {
   .hero-title {
     font-size: 3em; }
   .hero-description {
     font-size: 1.2em;
     line-height: 1.5; }
+  .social-nav {
+    font-size: 0.9em; }
   .tel {
     text-decoration: underline; } }
-
-.apparel-selector {
-  font-size: 1.5em;
-  text-align: center;
-  color: #0e83cd;
-  border: 2px solid #0e83cd;
-  padding: 0.5em;
-  width: 250px;
-  margin: 0; }
-
-.apparel-selector:hover,
-.apparel-selector:active {
-  color: #fff; }
-
-.apparel-selector:after {
-  background: #0e83cd; }
 
 .sublimation-container {
   padding: 1em; }
@@ -3130,8 +3130,8 @@ a:active {
 .tel:hover {
   color: #fd8a17; }
 
-#contact-container {
-  padding-top: 0; }
+#promo-contact {
+  margin-top: 0; }
 
 @media screen and (min-width: 28.5em) {
   /* for larger screens */
