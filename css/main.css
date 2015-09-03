@@ -2988,6 +2988,7 @@ a:active {
   padding: 0.3em;
   width: 100%;
   margin: 0;
+  margin-bottom: 2em;
   margin-top: 2em; }
 
 .hero-contact:hover,
@@ -3000,7 +3001,8 @@ a:active {
 .flow-container {
   padding-top: 1em;
   padding-bottom: 2em;
-  color: black; }
+  color: black;
+  background-color: #F0F1F5; }
 
 .flow {
   padding: 2em; }
@@ -3015,7 +3017,7 @@ a:active {
 
 .products-container {
   border-width: 3px;
-  background-color: #F0F1F5;
+  background-color: #96d2f8;
   text-align: center;
   padding-bottom: 4em;
   padding-top: 1em; }
