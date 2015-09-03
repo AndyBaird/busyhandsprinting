@@ -1,3 +1,19 @@
+
+.apparel, html{
+  height:100%;
+}
+#page-wrap{
+  min-height: 100%;
+  margin-bottom:-94px;
+}
+#page-wrap:after {
+  content: "";
+  display: block;
+}
+#social-nav, #page-wrap:after {
+  height: 94px; 
+}
+
 .apparel-selector-container{
   text-align: center;
 }
@@ -37,9 +53,7 @@
 }
 #social-nav{
   width:100%;
-  bottom:0;
-  left:0;
-  right:0;
+  height:94px;
 }
 
 //styles view
