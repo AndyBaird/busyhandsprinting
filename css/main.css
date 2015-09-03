@@ -3055,10 +3055,18 @@ a:active {
     text-decoration: underline; } }
 
 .sublimation-container {
-  padding: 1em; }
+  padding: 1em;
+  background-color: #F0F1F5; }
 
-.sublimation-product {
-  padding: 1em; }
+.box {
+  background-color: #fff;
+  padding-top: 0.1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  margin: 1em;
+  min-height: 175px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
 
 .apparel-selector-container {
   text-align: center; }
@@ -3079,13 +3087,8 @@ a:active {
 .apparel-selector:after {
   background: #0e83cd; }
 
-.apparel-selection {
-  padding-left: 4em;
-  padding-right: 4em;
-  padding-bottom: 2em; }
-
-.apparel-list {
-  padding-left: 4em; }
+.apparel-selection-description {
+  padding: 2em; }
 
 #colorSwatchItem {
   text-align: center;
@@ -3098,10 +3101,31 @@ a:active {
   text-decoration: underline;
   color: #fd8a17; }
 
+#social-nav {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.box-styles {
+  position: relative;
+  background-color: #fff;
+  margin: 1em;
+  padding: 1em;
+  padding-top: 0.1em;
+  min-height: 275px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.apparel-list {
+  background-color: #F0F1F5; }
+
+.style-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-height: 250px; }
+
 @media screen and (max-width: 768px) {
-  .apparel-selection {
-    padding-left: 2em;
-    padding-right: 2em; }
   .apparel-selector {
     font-size: 1.5em;
     width: 95%;
