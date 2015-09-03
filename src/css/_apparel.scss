@@ -17,16 +17,12 @@
 .apparel-selector:after{
   background: $primary-blue;
 }
-.apparel-selection{
-  padding-left: 4em;
-  padding-right: 4em;
-  padding-bottom:2em;
+.apparel-selection-description,
+.color-description{
+  padding:2em;
 }
-.apparel-selection-description{
-  margin-bottom:2em;
-}
-.apparel-list{
-  padding-left:4em;
+.color-description{
+  padding-top:0.2em;
 }
 #colorSwatchItem{
   text-align: center;
@@ -40,18 +36,40 @@
   color: $primary-orange;
 }
 #social-nav{
- 
   width:100%;
   bottom:0;
   left:0;
   right:0;
 }
 
+//styles view
+
+.box-styles{
+  position: relative;
+  background-color: #fff;
+  margin:1em;
+  padding:1em;
+  padding-top:0.1em;
+  min-height:275px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.apparel-list{
+  background-color: $background-grey;
+}
+.style-img{
+  position: absolute;
+  right:0;
+  top:0;
+  max-height:250px;
+  z-index: 1;
+  padding:0.5em;
+}
+.style-text h3, li{
+  z-index: 5;
+  position: relative;
+}
 @media screen and (max-width: 768px) {
-  .apparel-selection{
-    padding-left: 2em;
-    padding-right: 2em;
-  }
+
   .apparel-selector{
     font-size: 1.5em;
     width:95%;
