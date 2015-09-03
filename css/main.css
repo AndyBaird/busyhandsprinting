@@ -3031,9 +3031,6 @@ a:active {
   padding-left: 4em;
   padding-right: 4em; }
 
-.subtitle {
-  text-align: center; }
-
 .social-nav {
   text-align: center;
   font-size: 1.5em;
@@ -3087,8 +3084,12 @@ a:active {
 .apparel-selector:after {
   background: #0e83cd; }
 
-.apparel-selection-description {
+.apparel-selection-description,
+.color-description {
   padding: 2em; }
+
+.color-description {
+  padding-top: 0.2em; }
 
 #colorSwatchItem {
   text-align: center;
@@ -3123,7 +3124,13 @@ a:active {
   position: absolute;
   right: 0;
   top: 0;
-  max-height: 250px; }
+  max-height: 250px;
+  z-index: 1;
+  padding: 0.5em; }
+
+.style-text h3, li {
+  z-index: 5;
+  position: relative; }
 
 @media screen and (max-width: 768px) {
   .apparel-selector {
@@ -3188,6 +3195,11 @@ a {
 
 .main-content {
   padding-top: 3em; }
+
+.subtitle {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
 
 .fa-bars {
   display: none;
