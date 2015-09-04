@@ -3055,7 +3055,8 @@ a:active {
 
 .sublimation-container {
   padding: 1em;
-  background-color: #F0F1F5; }
+  background-color: #ddf1fd;
+  padding-top: 3em; }
 
 .box {
   background-color: #fff;
@@ -3066,6 +3067,16 @@ a:active {
   margin: 1em;
   min-height: 175px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.subtitle-container {
+  border-radius: 0.4em;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+  max-width: 60%;
+  margin-bottom: -3.1em;
+  color: white;
+  background: #0e83cd; }
 
 body, html {
   height: 100%; }
@@ -3132,7 +3143,7 @@ body, html {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
 
 .apparel-list {
-  background-color: #F0F1F5; }
+  background-color: #96d2f8; }
 
 .style-img {
   position: absolute;
