@@ -36,6 +36,7 @@
   padding:0.3em;
   width: 100%;
   margin:0;
+  margin-bottom:2em;
   margin-top:2em;
 }
 .hero-contact:hover,
@@ -52,6 +53,7 @@
   padding-top: 1em;
   padding-bottom: 2em;
   color: black;
+  background-color: lighten($color: $background-grey, $amount: 2%);
 }
 .flow{
  padding:2em; 
@@ -66,7 +68,8 @@
 }
 .products-container{
   border-width: 3px;
-  background-color: $background-grey;
+  background-color: lighten($color: $primary-blue, $amount: 50%);
+  // color: white;
   text-align: center;
   padding-bottom: 4em;
   padding-top:1em;
