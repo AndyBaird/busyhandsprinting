@@ -16,6 +16,11 @@ var del = require('del');
 var watch = require('gulp-watch');
 var sourcemaps = require('gulp-sourcemaps');
 
+var rev = require('gulp-rev');
+var revReplace = require('gulp-rev-replace');
+
+
+
 // Common patterns used throughout the gulp configuration
 var src = {
   allHtml: './src/**/*.html',
@@ -28,7 +33,7 @@ var src = {
 
 // The default task is what runs when you type 'gulp' in the terminal
 gulp.task('default', ['clean'], function () {
-  return gulp.start('html', 'img', 'font', 'js:views', 'js:vendor', 'js', 'scss', 'watch', 'reload', 'serve');
+  return gulp.start('html', 'img', 'font', 'js:views', 'js:vendor', 'js', 'scss', 'watch', 'reload', 'serve', 'rev', 'revreplace');
 });
 
 // Serve is a name I made up. You could call it 'dostuff' or whatever.
@@ -164,4 +169,22 @@ gulp.task('font', function () {
 // Clean the destination directory
 gulp.task('clean', function (cb) {
   del('./dist', cb);
+});
+
+// ~Cache bust part 1~ Generates version letter+numbers
+gulp.task('rev', ['scss', 'js'], function() {
+  return gulp.src(['dist/**/*.css', 'dist/**/*.js'])
+    .pipe(rev())
+    .pipe(gulp.dest('dist'))
+    .pipe(rev.manifest())
+    .pipe(gulp.dest('dist'));
+});
+
+// ~Cache bust part 2~ Replaces file paths with generated versions 
+gulp.task("revreplace", ["rev"], function(){
+  var manifest = gulp.src("./dist/rev-manifest.json");
+  
+  return gulp.src('./src/*.html')
+    .pipe(revReplace({manifest: manifest}))
+    .pipe(gulp.dest('./dist'));
 });
