@@ -7,19 +7,28 @@ var views = require('views');
 var menu = require('../menu');
 
   router.route("colors", function(){
-    show("colors", ".apparel-selection")
+    show("colors", ".apparel-selection");
+  // $('.apparel-selection').fadeIn("slow");
+  $('#colorSwatchGrid').fadeIn("slow");
   });
   
   router.route("styles", function(){
-    show("styles", ".apparel-selection")
+    show("styles", ".apparel-selection");
+// $('.apparel-selection').fadeIn("slow");
+$('.styles-container').fadeIn("slow");
   });
   
   router.route("prices", function(){
-    show("apparel-prices", ".apparel-selection")
+    show("apparel-prices", ".apparel-selection");
+$('.pricing-container').fadeIn("slow");
   });
+
+    
 
 $(function(){
   if($('body').is('.apparel')){
+
+  $('.apparel-selection').fadeIn("slow");
 
 //load the menu JS
 
@@ -30,6 +39,7 @@ $(function(){
   $('.plaques-nav').removeClass('active');
   $('.contact-nav').removeClass('active');
   menu();  
+
 
 // carousel
   $(document).ready(function(){

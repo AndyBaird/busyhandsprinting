@@ -12,6 +12,9 @@ body, html{
 #social-nav, #page-wrap:after {
   height: 94px; 
 }
+.apparel-selection, #colorSwatchGrid, .styles-container, .pricing-container{
+  display:none;
+}
 
 .apparel-selector-container{
   text-align: center;
@@ -96,4 +99,9 @@ body, html{
     text-align:left;
   }
 
+}
+
+//pricing view
+.pricing-container{
+  padding:2em;
 }
