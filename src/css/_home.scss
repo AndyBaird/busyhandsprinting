@@ -34,10 +34,11 @@
   color: $primary-blue;
   border: 2px solid $primary-blue;
   padding:0.3em;
-  width: 100%;
+  // width: 100%;
   margin:0;
   margin-bottom:2em;
   margin-top:2em;
+  width:50%;
 }
 .hero-contact:hover,
 .hero-contact:active{
