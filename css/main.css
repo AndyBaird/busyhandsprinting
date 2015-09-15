@@ -2986,10 +2986,10 @@ a:active {
   color: #0e83cd;
   border: 2px solid #0e83cd;
   padding: 0.3em;
-  width: 100%;
   margin: 0;
   margin-bottom: 2em;
-  margin-top: 2em; }
+  margin-top: 2em;
+  width: 50%; }
 
 .hero-contact:hover,
 .hero-contact:active {
@@ -3082,6 +3082,9 @@ body, html {
 #social-nav, #page-wrap:after {
   height: 94px; }
 
+.apparel-selection, #colorSwatchGrid, .styles-container, .pricing-container {
+  display: none; }
+
 .apparel-selector-container {
   text-align: center; }
 
@@ -3158,6 +3161,9 @@ body, html {
     margin-bottom: 0.2em; }
   .apparel-selection-description {
     text-align: left; } }
+
+.pricing-container {
+  padding: 2em; }
 
 .contact-info {
   color: black;
