@@ -2953,7 +2953,7 @@ a:active {
 
 .hero-container {
   height: 350px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/general/screen-print-opt.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/general/shirts-rack1.jpg");
   background-size: cover;
   visibility: hidden; }
 
@@ -2966,7 +2966,7 @@ a:active {
   margin: 0em; }
 
 .hero-title {
-  padding-top: 1.7em;
+  padding-top: 1em;
   padding-bottom: 0.5em;
   margin: 0;
   font-size: 4em;
@@ -2974,6 +2974,17 @@ a:active {
 
 .hero-description {
   font-size: 1.5em; }
+
+.hero-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 3px solid white;
+  transition: background-color 0.3s ease;
+  margin-top: 1.2em; }
+
+.hero-btn:hover {
+  background-color: white;
+  color: black; }
 
 .contact-container {
   text-align: center;
@@ -3017,21 +3028,35 @@ a:active {
 
 .products-container {
   border-width: 3px;
-  background-color: #ddf1fd;
   text-align: center;
   padding-bottom: 4em;
   padding-top: 1em; }
 
 .product-list {
-  padding-left: 6em;
+  padding-left: 4em;
   text-align: left;
   list-style: none; }
+
+#product1, #product2, #product3 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right; }
+
+#product1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/styles/shirt.png"); }
+
+#product2 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/general/orange-hat.png"); }
+
+#product3 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/general/water-bottle-1.png"); }
 
 .about-container {
   padding-top: 2em;
   padding-bottom: 4em;
   padding-left: 4em;
-  padding-right: 4em; }
+  padding-right: 4em;
+  background-color: #ddf1fd; }
 
 .social-nav {
   text-align: center;
@@ -3042,6 +3067,16 @@ a:active {
 #home-tel, .home-tel, .fa-facebook-square {
   color: white; }
 
+@media screen and (max-width: 768px) {
+  #product1, #product2, #product3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right; }
+  .product-list {
+    min-height: 100%;
+    text-align: left;
+    padding-left: 3em; } }
+
 @media screen and (max-width: 650px) {
   .hero-title {
     font-size: 3em; }
@@ -3051,7 +3086,9 @@ a:active {
   .social-nav {
     font-size: 0.9em; }
   .tel {
-    text-decoration: underline; } }
+    text-decoration: underline; }
+  .hero-contact {
+    width: 100%; } }
 
 .sublimation-container {
   padding: 1em;
