@@ -134,8 +134,7 @@ module.exports = function () {
   // console.log(activeElement.width());
   indicator.css("left", indicatorPosition);
   
-// BUG! only works on the first load for some reason..
-  $(".hero-contact, .flow-contact").hover(function(){
+  $(".hero-btn, .flow-contact").hover(function(){
     activeElement = $(".contact-nav");
     indicatorPosition = activeElement.position().left + activeElement.width()/2 - 5;
     indicator.css("left", indicatorPosition);
