@@ -2955,7 +2955,11 @@ a:active {
   height: 350px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/general/shirts-rack1.jpg");
   background-size: cover;
-  visibility: hidden; }
+  background-attachment: fixed;
+  width: 100%;
+  top: 0;
+  background-position-y: -150px;
+  background-position-x: 100%; }
 
 .logo {
   max-width: 50px; }
@@ -3013,7 +3017,10 @@ a:active {
   padding-top: 1em;
   padding-bottom: 2em;
   color: black;
-  background-color: #f6f7f9; }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/general/process-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%; }
 
 .flow {
   padding: 2em; }
@@ -3026,11 +3033,19 @@ a:active {
 .flow-contact {
   color: #0e83cd; }
 
+body > div.main-content > div.products-container.pure-g > h1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+  margin: 0;
+  padding-top: 1em; }
+
 .products-container {
   border-width: 3px;
   text-align: center;
-  padding-bottom: 4em;
-  padding-top: 1em; }
+  padding-bottom: 2em;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/general/process-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%; }
 
 .product-list {
   padding-left: 4em;
@@ -3040,7 +3055,8 @@ a:active {
 #product1, #product2, #product3 {
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right; }
+  background-position: right;
+  padding-bottom: 2em; }
 
 #product1 {
   background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/styles/shirt.png"); }
@@ -3056,7 +3072,10 @@ a:active {
   padding-bottom: 4em;
   padding-left: 4em;
   padding-right: 4em;
-  background-color: #ddf1fd; }
+  background-image: linear-gradient(rgba(221, 241, 253, 0.85), rgba(221, 241, 253, 0.85)), url("../img/general/process-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%; }
 
 .social-nav {
   text-align: center;
@@ -3092,8 +3111,11 @@ a:active {
 
 .sublimation-container {
   padding: 1em;
-  background-color: #F0F1F5;
-  padding-top: 3em; }
+  padding-top: 3em;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/general/process-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%; }
 
 .box {
   background-color: #fff;
@@ -3103,7 +3125,8 @@ a:active {
   padding-bottom: 1em;
   margin: 1em;
   min-height: 175px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 0.3em; }
 
 body, html {
   height: 100%; }
@@ -3145,6 +3168,11 @@ body, html {
 .color-description {
   padding: 2em; }
 
+.apparel-selection-description {
+  padding-right: 4em;
+  padding-left: 4em;
+  font-size: 20px; }
+
 .color-description {
   padding-top: 0.2em; }
 
@@ -3170,10 +3198,11 @@ body, html {
   padding: 1em;
   padding-top: 0.1em;
   min-height: 275px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 0.3em; }
 
 .apparel-list {
-  background-color: #96d2f8; }
+  background-color: #ddf1fd; }
 
 .style-img {
   position: absolute;
@@ -3292,3 +3321,11 @@ a {
 
 .slick-dots {
   bottom: -30px; }
+
+.price-list {
+  text-align: center;
+  padding: 2em; }
+
+.price-list-title {
+  font-size: 20px;
+  font-weight: bold; }
