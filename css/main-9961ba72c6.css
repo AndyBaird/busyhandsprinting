@@ -3109,7 +3109,8 @@ body > div.main-content > div.products-container.pure-g > h1 {
   .hero-contact {
     width: 100%; }
   .hero-container {
-    background-size: contain; } }
+    background-position-y: 0px;
+    background-position-x: 100%; } }
 
 .sublimation-container {
   padding: 1em;
