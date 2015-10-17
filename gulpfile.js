@@ -36,6 +36,8 @@ gulp.task('default', ['clean'], function () {
   return gulp.start('html', 'img', 'font', 'js:views', 'js:vendor', 'js', 'scss', 'watch', 'reload', 'serve', 'rev', 'revreplace');
 });
 
+//'rev', 'revreplace'
+
 // Serve is a name I made up. You could call it 'dostuff' or whatever.
 // The task starts a connect server on port 8000 if you go to
 // http://localhost:8000, you can see what is being served.

@@ -3,7 +3,11 @@
   background-image: linear-gradient(rgba($color: black, $alpha: 0.6),rgba($color: black, $alpha: 0.6) ),
   url('../img/general/shirts-rack1.jpg');
   background-size: cover;
-  visibility: hidden;
+  background-attachment: fixed;
+  width: 100%;
+  top: 0;
+  background-position-y: -150px;
+  background-position-x: 100%;
 }
 .logo{
   max-width: 50px;
@@ -66,7 +70,12 @@
   padding-top: 1em;
   padding-bottom: 2em;
   color: black;
-  background-color: lighten($color: $background-grey, $amount: 2%);
+  // background-color: lighten($color: $background-grey, $amount: 2%);
+  background-image: linear-gradient(rgba($color: white, $alpha: 0.7),rgba($color: white, $alpha: 0.7) ),
+  url('../img/general/process-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
 }
 .flow{
  padding:2em; 
@@ -81,11 +90,21 @@
 }
 
 //products
+body > div.main-content > div.products-container.pure-g > h1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+  margin: 0;
+  padding-top: 1em;
+}
+
 .products-container{
   border-width: 3px;
   text-align: center;
-  padding-bottom: 4em;
-  padding-top:1em;
+  padding-bottom: 2em;
+   background-image: linear-gradient(rgba($color: white, $alpha: 0.7),rgba($color: white, $alpha: 0.7) ),
+  url('../img/general/process-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
 }
 .product-list{
   padding-left:4em;
@@ -97,6 +116,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
+  padding-bottom: 2em;
 }
 #product1{
     background-image: linear-gradient(rgba($color: white, $alpha: 0.8),rgba($color: white, $alpha: 0.8) ),
@@ -116,7 +136,12 @@
   padding-bottom:4em;
   padding-left: 4em;
   padding-right:4em; 
-  background-color: lighten($color: $primary-blue, $amount: 50%);
+  // background-color: lighten($color: $primary-blue, $amount: 50%);
+  background-image: linear-gradient(rgba($color: lighten($color: $primary-blue, $amount: 50%), $alpha: 0.85),rgba($color: lighten($color: $primary-blue, $amount: 50%), $alpha: 0.85) ),
+  url('../img/general/process-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 //footer
