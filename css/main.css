@@ -3113,7 +3113,18 @@ body > div.main-content > div.products-container.pure-g > h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/general/shirts-rack1-mobile.jpg");
     background-size: cover;
     width: 100%;
-    top: 0; } }
+    top: 0;
+    background-position-x: 0;
+    background-position-y: 0; }
+  .flow-container {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    color: black;
+    background-color: #f6f7f9;
+    background-image: none;
+    background-size: cover;
+    background-attachment: initial;
+    width: 100%; } }
 
 .sublimation-container {
   padding: 1em;
