@@ -3042,7 +3042,7 @@ body > div.main-content > div.products-container.pure-g > h1 {
   border-width: 3px;
   text-align: center;
   padding-bottom: 2em;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/general/process-bg.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/general/process-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   width: 100%; }
@@ -3122,7 +3122,8 @@ body > div.main-content > div.products-container.pure-g > h1 {
     background-attachment: initial;
     width: 100%; }
   .about-container {
-    background-color: #ddf1fd; }
+    background-color: #ddf1fd;
+    background-image: none; }
   .products-container {
     background-image: none; } }
 
