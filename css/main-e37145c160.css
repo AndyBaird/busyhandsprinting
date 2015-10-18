@@ -3121,7 +3121,9 @@ body > div.main-content > div.products-container.pure-g > h1 {
     background-size: cover;
     background-attachment: initial;
     width: 100%; }
-  .about-container, .products-container {
+  .about-container {
+    background-color: #ddf1fd; }
+  .products-container {
     background-image: none; } }
 
 .sublimation-container {
