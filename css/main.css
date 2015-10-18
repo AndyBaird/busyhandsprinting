@@ -3122,7 +3122,8 @@ body > div.main-content > div.products-container.pure-g > h1 {
     background-attachment: initial;
     width: 100%; }
   .about-container {
-    background-color: #ddf1fd; }
+    background-color: #ddf1fd;
+    background-image: none; }
   .products-container {
     background-image: none; } }
 
