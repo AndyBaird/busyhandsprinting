@@ -100,7 +100,7 @@ body > div.main-content > div.products-container.pure-g > h1 {
   border-width: 3px;
   text-align: center;
   padding-bottom: 2em;
-   background-image: linear-gradient(rgba($color: white, $alpha: 0.7),rgba($color: white, $alpha: 0.7) ),
+   background-image: linear-gradient(rgba($color: white, $alpha: 0.8),rgba($color: white, $alpha: 0.8) ),
   url('../img/general/process-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
@@ -182,5 +182,29 @@ body > div.main-content > div.products-container.pure-g > h1 {
     }
     .hero-contact{
       width:100%;
+    }
+    .hero-container{
+      height: 350px;
+      // background-image: linear-gradient(rgba($color: black, $alpha: 0.6),rgba($color: black, $alpha: 0.6) ),
+      // url('../img/general/shirts-rack1-mobile.jpg');
+      background-size: cover;
+      width: 100%;
+    }
+    .flow-container{
+      padding-top: 1em;
+      padding-bottom: 2em;
+      color: black;
+      background-color: lighten($color: $background-grey, $amount: 2%);
+      background-image: none;
+      background-size: cover;
+      background-attachment: initial;
+      width: 100%;
+    }
+    .about-container{
+      background-color: lighten($color: $primary-blue, $amount: 50%);
+      background-image: none;
+    }
+    .products-container{
+      background-image: none;
     }
 }
