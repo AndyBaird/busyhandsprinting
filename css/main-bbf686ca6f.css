@@ -3111,7 +3111,7 @@ body > div.main-content > div.products-container.pure-g > h1 {
   .hero-container {
     height: 350px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/general/shirts-rack1-mobile.jpg");
-    background-size: auto;
+    background-size: cover;
     width: 100%;
     top: 0;
     background-position-x: 0;
