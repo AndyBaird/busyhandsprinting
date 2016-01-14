@@ -33,7 +33,7 @@ var src = {
 
 // The default task is what runs when you type 'gulp' in the terminal
 gulp.task('default', ['clean'], function () {
-  return gulp.start('html', 'img', 'font', 'js:views', 'js:vendor', 'js', 'scss', 'watch', 'reload', 'serve', 'rev', 'revreplace');
+  return gulp.start('html', 'img', 'font', 'js:views', 'js:vendor', 'js', 'scss', 'watch', 'reload', 'serve');
 });
 
 // , 'rev', 'revreplace'

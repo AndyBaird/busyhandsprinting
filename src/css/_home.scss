@@ -91,7 +91,7 @@
 
 //products
 body > div.main-content > div.products-container.pure-g > h1 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
   margin: 0;
   padding-top: 1em;
 }
@@ -130,6 +130,18 @@ body > div.main-content > div.products-container.pure-g > h1 {
     background-image: linear-gradient(rgba($color: white, $alpha: 0.8),rgba($color: white, $alpha: 0.8) ),
   url('../img/general/water-bottle-1.png');
 }
+#keywords{
+  margin: auto; 
+}
+.wordcloud{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(rgba($color: white, $alpha: 0.9),rgba($color: white, $alpha: 0.9) ),
+  url('../img/general/process-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 //about
 .about-container{
   padding-top:2em;
@@ -137,7 +149,7 @@ body > div.main-content > div.products-container.pure-g > h1 {
   padding-left: 4em;
   padding-right:4em; 
   // background-color: lighten($color: $primary-blue, $amount: 50%);
-  background-image: linear-gradient(rgba($color: lighten($color: $primary-blue, $amount: 50%), $alpha: 0.85),rgba($color: lighten($color: $primary-blue, $amount: 50%), $alpha: 0.85) ),
+  background-image: linear-gradient(rgba($color: lighten($color: $primary-blue, $amount: 50%), $alpha: 0.95),rgba($color: lighten($color: $primary-blue, $amount: 50%), $alpha: 0.95) ),
   url('../img/general/process-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
@@ -154,7 +166,17 @@ body > div.main-content > div.products-container.pure-g > h1 {
 #home-tel,.home-tel, .fa-facebook-square{
   color:white;
 }
+
+@media screen and (min-width: 768px) {
+  .products-container{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .wordcloud{
+    display: none;
+  }
   #product1, #product2, #product3{
     background-size: contain;
     background-repeat: no-repeat;
@@ -165,6 +187,9 @@ body > div.main-content > div.products-container.pure-g > h1 {
       text-align: left;
       padding-left: 3em;
   }
+      .products-container{
+      background-image: none;
+    }
 }
 @media screen and (max-width: 650px) {
     .hero-title{
@@ -204,7 +229,5 @@ body > div.main-content > div.products-container.pure-g > h1 {
       background-color: lighten($color: $primary-blue, $amount: 50%);
       background-image: none;
     }
-    .products-container{
-      background-image: none;
-    }
+
 }
