@@ -29,6 +29,9 @@ body, p, h1, h2, li{
 body{
   color:black;
 }
+.text-left{
+  text-align: left !important;
+}
 //force banner-image-container to wait until all items load, JS then reveals content
 .banner-image-container{
   visibility: hidden;
@@ -66,9 +69,9 @@ a{
   .subtitle-container{
     max-width:95%;
   }
-  .subtitle{ 
-  font-size:2.5em;
-  }
+  // .subtitle{ 
+  // font-size:2.5em;
+  // }
 }
 
 .fa-bars {
@@ -103,14 +106,9 @@ a{
 .slick-dots{
   bottom:-30px;
 }
-
-//
 .price-list{
   text-align: center;
   padding: 2em;
-}
-.price-container{
-  // margin: 0 auto;
 }
 .price-list-title{
  font-size: 20px;
