@@ -3235,9 +3235,6 @@ body, html {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 0.3em; }
 
-.apparel-list {
-  background-color: #ddf1fd; }
-
 .style-img {
   position: absolute;
   right: 0;
@@ -3263,7 +3260,8 @@ body, html {
     text-align: left; } }
 
 .pricing-container {
-  padding: 2em; }
+  padding: 2em;
+  padding-top: 0em; }
 
 .contact-info {
   color: black;
@@ -3399,6 +3397,9 @@ body, p, h1, h2, li {
 body {
   color: black; }
 
+.text-left {
+  text-align: left !important; }
+
 .banner-image-container {
   visibility: hidden; }
 
@@ -3415,6 +3416,10 @@ a {
 .main-content {
   padding-top: 3em; }
 
+#cssmenu > ul > li > a {
+  font-size: 16px;
+  font-weight: bold; }
+
 .subtitle {
   text-align: center;
   margin-top: 0.5em;
@@ -3422,9 +3427,7 @@ a {
 
 @media screen and (max-width: 650px) {
   .subtitle-container {
-    max-width: 95%; }
-  .subtitle {
-    font-size: 2.5em; } }
+    max-width: 95%; } }
 
 .fa-bars {
   display: none;
