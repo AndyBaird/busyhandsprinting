@@ -35,7 +35,7 @@ $(function(){
   {text: "Sweatshirts", weight: 8.5},
   {text: "Long Sleeves", weight: 7},
   {text: "Tie Dye", weight: 5},
-  {text: "BumpTeamwear", weight: 7.5},
+  {text: "Teamwear", weight: 7.5},
   {text: "Hats", weight: 9},
   {text: "Headwear", weight: 7.2},
   {text: "Bumper Stickers", weight: 6.3},
